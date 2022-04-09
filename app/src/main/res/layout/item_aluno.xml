@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_height"
+    android:background="@drawable/background_item"
+    android:paddingHorizontal="@dimen/padding">
+    <RelativeLayout
+        android:id="@+id/user_lay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:id="@+id/name_aluno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Name"
+            android:layout_centerVertical="true"
+            android:textSize="@dimen/font_medil" />
+        <TextView
+            android:id="@+id/date_aluno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="01/02/2022"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:textSize="@dimen/font_medil" />
+    </RelativeLayout>
+</RelativeLayout>

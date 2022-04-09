@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.francivaldo.drausioacademia">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DrausioAcademia">
+        <activity
+            android:name=".main.Cadastro"
+            android:exported="false" />
+        <activity
+            android:name=".ficha.ActivityTreino"
+            android:exported="false" />
+        <activity
+            android:name=".ficha.ActivityTreinos"
+            android:exported="false" />
+        <activity
+            android:name=".main.SplachScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ficha.ActivityUserInfor"
+            android:exported="false" />
+        <activity
+            android:name=".aluno.AlunoInfor"
+            android:exported="false" />
+        <activity
+            android:name=".main.Login"
+            android:exported="false" />
+        <activity
+            android:name=".mensalidades.Mes"
+            android:exported="false" />
+        <activity
+            android:name=".aluno.CadastrarAluno"
+            android:exported="false" />
+        <activity
+            android:name=".mensalidades.Mensalidades"
+            android:exported="false" />
+        <activity
+            android:name=".aluno.Alunos"
+            android:exported="false" />
+        <activity
+            android:name=".main.Main"
+            android:exported="false" />
+    </application>
+
+</manifest>

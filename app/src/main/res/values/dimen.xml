@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="w_block_select">170dp</dimen>
+    <dimen name="h_block_select">200dp</dimen>
+    <dimen name="margin_top_block">20dp</dimen>
+    <dimen name="font_ficha">22dp</dimen>
+    <dimen name="font_big">20dp</dimen>
+    <dimen name="font_medil">18dp</dimen>
+    <dimen name="font_smoll">17dp</dimen>
+    <dimen name="padding">20dp</dimen>
+    <dimen name="ic_size">40dp</dimen>
+    <dimen name="action_bar">60dp</dimen>
+    <dimen name="item_height">60dp</dimen>
+
+    <dimen name="cmp_1">90dp</dimen>
+    <dimen name="cmp_2">200dp</dimen>
+    <dimen name="cmp_3">60dp</dimen>
+    <dimen name="cmp_main_size">530dp</dimen>
+    <dimen name="cmp_main_size_double">1100dp</dimen>
+
+    <dimen name="dialog_size_h">400dp</dimen>
+    <dimen name="dialog_size_w">300dp</dimen>
+
+    <dimen name="scroll_size">80dp</dimen>
+    <dimen name="margin_item_ficha">20dp</dimen>
+
+</resources>

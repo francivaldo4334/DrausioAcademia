@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ficha.ActivityTreino"
+    android:background="@color/cor_clara">
+    <RelativeLayout
+        android:layout_marginTop="@dimen/action_bar"
+        android:layout_width="match_parent"
+        android:background="@color/gray"
+        android:layout_height="@dimen/font_ficha">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_toLeftOf="@+id/lay_treino_ln"
+            android:background="@drawable/background_item"
+            android:gravity="center"
+            android:text="EXERCÍCIO"
+            android:textSize="@dimen/font_medil" />
+        <LinearLayout
+            android:id="@+id/lay_treino_ln"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:background="@drawable/background_item"
+                android:gravity="center"
+                android:layout_width="@dimen/cmp_3"
+                android:layout_height="match_parent"
+                android:text="INT"
+                android:textSize="@dimen/font_medil" />
+            <TextView
+                android:background="@drawable/background_item"
+                android:gravity="center"
+                android:layout_width="@dimen/cmp_3"
+                android:layout_height="match_parent"
+                android:text="KG"
+                android:textSize="@dimen/font_medil" />
+            <TextView
+                android:background="@drawable/background_item"
+                android:gravity="center"
+                android:layout_width="@dimen/cmp_3"
+                android:layout_height="match_parent"
+                android:text="REP."
+                android:textSize="@dimen/font_medil" />
+            <TextView
+                android:background="@drawable/background_item"
+                android:gravity="center"
+                android:layout_width="@dimen/cmp_3"
+                android:layout_height="match_parent"
+                android:text="SÉRIE"
+                android:textSize="@dimen/font_medil" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/lay_top_alunos_edt_t"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/action_bar"
+        android:background="@drawable/background_linear_to_donw"
+        app:layout_constraintTop_toTopOf="parent"
+        android:gravity="center_vertical">
+        <ImageView
+            android:onClick="onIcBack"
+            android:layout_width="@dimen/ic_size"
+            android:layout_height="@dimen/ic_size"
+            android:src="@drawable/ic_baseline_arrow_back_ios_24"
+            android:padding="6dp"/>
+        <TextView
+            android:id="@+id/name_treino_atv_treino"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Editar Treino"
+            android:textColor="@color/white"
+            android:textSize="@dimen/font_big"/>
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list_treino"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="82dp"
+        android:layout_marginBottom="100dp" />
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_linear_to_donw"
+        android:text="Salvar informações"
+        android:onClick="onSaveTreino"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="40dp"
+        android:textColor="@color/white" />
+</RelativeLayout>

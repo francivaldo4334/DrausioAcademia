@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_height">
+    <RelativeLayout
+        android:paddingHorizontal="@dimen/padding"
+        android:background="@drawable/background_item"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lay_mes">
+
+    <TextView
+        android:id="@+id/name_mes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="@string/janeiro"
+        android:textSize="@dimen/font_medil" />
+
+        <ImageView
+            android:id="@+id/ic_checked"
+            android:layout_width="@dimen/ic_size"
+            android:layout_height="@dimen/ic_size"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/ic_check_f_t"/>
+    </RelativeLayout>
+</RelativeLayout>

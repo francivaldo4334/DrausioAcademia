@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/item_height"
+    android:background="@color/white">
+
+    <TextView
+        android:background="@drawable/background_item"
+        android:gravity="center"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/name_treino"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="nome do treino"
+        android:textSize="@dimen/font_medil"
+        android:layout_toLeftOf="@+id/lay_treino_ln"/>
+    <LinearLayout
+        android:id="@+id/lay_treino_ln"
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+        <TextView
+            android:background="@drawable/background_item"
+            android:gravity="center"
+            android:id="@+id/cmp1"
+            android:layout_width="@dimen/cmp_3"
+            android:layout_height="match_parent"
+            android:text="n"
+            android:textSize="@dimen/font_medil" />
+        <TextView
+            android:background="@drawable/background_item"
+            android:gravity="center"
+            android:id="@+id/cmp2"
+            android:layout_width="@dimen/cmp_3"
+            android:layout_height="match_parent"
+            android:text="n"
+            android:textSize="@dimen/font_medil" />
+        <TextView
+            android:background="@drawable/background_item"
+            android:gravity="center"
+            android:id="@+id/cmp3"
+            android:layout_width="@dimen/cmp_3"
+            android:layout_height="match_parent"
+            android:text="n"
+            android:textSize="@dimen/font_medil" />
+        <TextView
+            android:background="@drawable/background_item"
+            android:gravity="center"
+            android:id="@+id/cmp4"
+            android:layout_width="@dimen/cmp_3"
+            android:layout_height="match_parent"
+            android:text="n"
+            android:textSize="@dimen/font_medil" />
+    </LinearLayout>
+
+
+</RelativeLayout>

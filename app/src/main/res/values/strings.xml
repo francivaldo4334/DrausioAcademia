@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Drausio Academia</string>
+    <string name="lay_init">Tela inicial</string>
+
+    <string name="txt_alunos">Alunos\ninscritos</string>
+    <string name="txt_mensalidades">Mensalidades</string>
+    <string name="txt_env_conv_ins">Compartilhar\nAplicação</string>
+    <string name="txt_criar_cadastro">Criar\nNova\nInscrição</string>
+
+    <string name="alert_menssage">Preencha todos os campos !</string>
+    <string name="alert_susses_menssage">Inscrição completa !</string>
+    <string name="alert_erro_menssage">Não foi possivel salvar a inscriçao</string>
+
+    <string name="qr_code">qr_code</string>
+    <string name="dialog_delete_confirm">Você realmente deseja excluir esta inscrição?</string>
+    <string name="yes">confirmar</string>
+    <string name="cancel">cancelar</string>
+    <string name="user_delete">Inscrição excluida!</string>
+    <string name="alert_qr_confirm">Pagamento realizado</string>
+    <string name="alert_save_infor">Informação salva</string>
+    <string name="alert_save_infor_erro">Erro ao salvar informações!</string>
+
+    <string name="janeiro">janeiro</string>
+    <string name="fevereiro">fevereiro</string>
+    <string name="março">março</string>
+    <string name="abril">abril</string>
+    <string name="maio">maio</string>
+    <string name="junho">junho</string>
+    <string name="julho">julho</string>
+    <string name="agosto">agosto</string>
+    <string name="setembro">setembro</string>
+    <string name="outubro">outubro</string>
+    <string name="novembro">novembro</string>
+    <string name="dezembro">dezembro</string>
+    <string name="dialog_confirm_pag">confirmar pagamento?</string>
+    <string name="dialog_cancel_pag">cancelar pagamento?</string>
+    <string name="app_link">https://play.google.com/store/apps/details?id=com.francivaldo.drausioacademia</string>
+    <string name="dialog_log_fin">encerrar sessão?</string>
+
+
+</resources>

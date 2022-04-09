@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="@dimen/dialog_size_w"
+    android:layout_height="200dp"
+    android:background="@color/cor_clara"
+    android:id="@+id/dialog_edit_infor"
+    android:padding="@dimen/padding">
+
+    <EditText
+        android:id="@+id/edt_text_infor"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/ic_size"
+        android:background="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/block_shape"
+        android:onClick="onComfirmEditInfor"
+        android:text="@string/yes"
+        android:textColor="@color/white" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:onClick="onCancelEditInfor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/block_shape"
+        android:text="@string/cancel"
+        android:textColor="@color/white" />
+</RelativeLayout>
